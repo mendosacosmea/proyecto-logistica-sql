@@ -28,6 +28,10 @@
 **Situación:** Se solicitó el historial de pedidos del cliente 'TOMSP' posteriores al 1 de enero de 1997 para un análisis de recurrencia.
 ![Resultado](../assets/Ejercicio5.png)
 
+## Ejercicio 6: Filtro avanzado con operadores de Agrupamiento y Ordenamiento
+**Objetivo:** Combinar múltiples condiciones para obtener reportes más precisos.
+**Situación:** Se solicitó el que se filtre por cantidad de envios por ciudad y por costo de envio y que se ordene de forma descendente.
+![Resultado](../assets/Ejercicio6.png)
 
 
 

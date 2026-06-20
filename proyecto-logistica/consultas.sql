@@ -28,3 +28,11 @@ WHERE FechaPedido >= '1997-01-01';
 --Ejercicio 5: Filtro avanzado con operadores lógicos
 SELECT * FROM Pedidos
 WHERE ClienteID = 'TOMSP' AND FechaPedido >= '1997-01-01';
+
+
+--Ejercicio 6: Filtro de orden y agrupamiento
+SELECT CostoEnvio,CiudadDestino, COUNT(CiudadDestino) as CantidadEnviosRealizados
+FROM Pedidos
+WHERE CostoEnvio > 15
+GROUP BY CiudadDestino
+order by CantidadEnviosRealizados desc;
